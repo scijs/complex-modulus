@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/scijs/complex-modulus.svg?branch=master)](https://travis-ci.org/scijs/complex-modulus) [![npm version](https://badge.fury.io/js/complex-modulus.svg)](http://badge.fury.io/js/complex-modulus)  [![Dependency Status](https://david-dm.org/scijs/complex-modulus.svg)](https://david-dm.org/scijs/complex-modulus)
 
-
 Floating point complex modulus
 
 ## Intro
@@ -26,7 +25,6 @@ var result = cmod( 3, 4 );
 
 // result = 5
 ```
-
 
 ## References
 
