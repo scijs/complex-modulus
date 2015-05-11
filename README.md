@@ -6,7 +6,7 @@ Floating point complex modulus
 
 ## Intro
 
-Calculating a floating point complex modulus isn't quite trivial. The naive method may encounter overflow, underflow, or loss of precision due to the intermediate floating point results. A simple remedy is[1]:
+Calculating a floating point complex modulus isn't quite trivial. The naive method may encounter overflow, underflow, or loss of precision due to the intermediate floating point results. A simple remedy[[1]](#references) is:
 
 ![Complex modulus](docs/images/modulus.png)
 
