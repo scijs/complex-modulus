@@ -1,10 +1,10 @@
 {
   "name": "complex-modulus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Floating point complex modulus",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "semistandard && mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,13 @@
   "license": "MIT",
   "devDependencies": {
     "jshint": "^2.7.0",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "semistandard": "^8.0.0"
+  },
+  "semistandard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
   }
 }
